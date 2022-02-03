@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://img.freepik.com/free-photo/latest-news-subscribe-update_53876-120299.jpg?size=626&ext=jpg&ga=GA1.2.1518270500.1633910400');
+}
+
+button, input[type="text"] {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  text-decoration: solid;
+}
+
+li, img {
+  max-width: 500px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  background: lightgrey
+}
+
+.error-message {
+    color: red;
+}
+
+.hidden {
+  display: none;
+}
+#results {
+  color: black;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
